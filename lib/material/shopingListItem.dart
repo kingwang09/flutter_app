@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
         body: Center(
           child: ShoppingListItem(
-            product: const Product(name: '테스트 제품'),
+            product: const Product(name: 'Chips'),
             inCart: true,
-            onCartChanged: (product, inCart){},
+            onCartChanged: (product, inCart) {},
           ),
         ),
       ),
-    )
+    ),
   );
 }
 
