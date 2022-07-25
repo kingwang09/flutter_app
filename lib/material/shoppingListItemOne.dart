@@ -5,7 +5,7 @@ void main() {
     MaterialApp(
       home: Scaffold(
         body: Center(
-          child: ShoppingListItem(
+          child: ShoppingListItemOne(
             product: const Product(name: 'Chips'),
             inCart: true,
             onCartChanged: (product, inCart) {},
@@ -16,8 +16,8 @@ void main() {
   );
 }
 
-class ShoppingListItem extends StatelessWidget {
-  ShoppingListItem({
+class ShoppingListItemOne extends StatelessWidget {
+  ShoppingListItemOne({
     required this.product,
     required this.inCart,
     required this.onCartChanged,
