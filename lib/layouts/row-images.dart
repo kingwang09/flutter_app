@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Image.asset("images/collins.jpg", width: 100, height: 100,),
-        Image.asset("images/timothy.jpg", width: 100, height: 100,),
-        Image.asset("images/Lounge.jpg", width: 100, height: 100,),
+        Expanded(child: Image.asset("images/collins.jpg")),
+        Expanded(child: Image.asset("images/timothy.jpg")),
+        Expanded(child: Image.asset("images/Lounge.jpg")),
       ],
     );
   }
