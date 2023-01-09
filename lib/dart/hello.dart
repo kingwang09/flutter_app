@@ -2,6 +2,9 @@ void main(){
   print("hello world!!");
 
   //variable
+  print("---------------------------------");
+  print("1) variable ");
+  print("---------------------------------");
   var name = 'Voyager I';
   var year = 1977;
   var antennaDiameter = 3.7;
